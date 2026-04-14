@@ -1,29 +1,3 @@
-d3-octree
-==============
-
-[![NPM package][npm-img]][npm-url]
-[![Build Size][build-size-img]][build-size-url]
-[![NPM Downloads][npm-downloads-img]][npm-downloads-url]
-
-Ported version of D3's [Quadtree](https://github.com/d3/d3-quadtree), to use with three dimensional data structures, by adding the z coordinate.
-
-An [octree](https://en.wikipedia.org/wiki/Octree) recursively partitions three-dimensional space into cubes, dividing each cube into eight equally-sized cubes. Each distinct point exists in a unique leaf [node](#nodes); coincident points are represented by a linked list. Octrees can accelerate various spatial operations, such as the [Barnes–Hut approximation](https://en.wikipedia.org/wiki/Barnes–Hut_simulation) for computing many-body forces, collision detection, and searching for nearby points.
-
-See also [d3-binarytree](https://github.com/vasturiano/d3-binarytree) and [d3-quadtree](https://github.com/d3/d3-quadtree).
-
-## Installing
-
-If you use npm, `npm install d3-octree`. You can also load directly from the global [npmJS](https://npmjs.com) registry, as a bundled [standalone library](https://unpkg.com/d3-octree). In vanilla, a `d3` global is exported:
-
-```html
-<script src="https://unpkg.com/d3-octree"></script>
-<script>
-
-const octree = d3.octree();
-
-</script>
-```
-
 ## API Reference
 
 <a name="octree" href="#octree">#</a> d3.<b>octree</b>([<i>data</i>[, <i>x</i>, <i>y</i>, <i>z</i>]])
@@ -212,9 +186,3 @@ if (!node.length) do console.log(node.data); while (node = node.next);
 The point’s *x*-, *y*- and *z*-coordinates **must not be modified** while the point is in the octree. To update a point’s position, [remove](#octree_remove) the point and then re-[add](#octree_add) it to the octree at the new position. Alternatively, you may discard the existing octree entirely and create a new one from scratch; this may be more efficient if many of the points have moved.
 
 
-[npm-img]: https://img.shields.io/npm/v/d3-octree
-[npm-url]: https://npmjs.org/package/d3-octree
-[build-size-img]: https://img.shields.io/bundlephobia/minzip/d3-octree
-[build-size-url]: https://bundlephobia.com/result?p=d3-octree
-[npm-downloads-img]: https://img.shields.io/npm/dt/d3-octree
-[npm-downloads-url]: https://www.npmtrends.com/d3-octree
