@@ -1,3 +1,25 @@
+# d3-octree
+
+Three-dimensional recursive spatial subdivision — the 3D analogue of [d3-quadtree](https://github.com/d3/d3-quadtree). An octree recursively partitions space into eight octants, which makes nearest-neighbour lookups and collision detection over large 3D point sets fast.
+
+This repository is a copy of [vasturiano/d3-octree](https://github.com/vasturiano/d3-octree) by Vasco Asturiano.
+
+## Installation
+
+```
+npm install d3-octree
+```
+
+```js
+import { octree } from 'd3-octree';
+```
+
+Or from a CDN:
+
+```html
+<script src="https://unpkg.com/d3-octree"></script>
+```
+
 ## API Reference
 
 <a name="octree" href="#octree">#</a> d3.<b>octree</b>([<i>data</i>[, <i>x</i>, <i>y</i>, <i>z</i>]])
