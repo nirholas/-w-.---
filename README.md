@@ -207,3 +207,7 @@ if (!node.length) do console.log(node.data); while (node = node.next);
 
 The point’s *x*-, *y*- and *z*-coordinates **must not be modified** while the point is in the octree. To update a point’s position, [remove](#octree_remove) the point and then re-[add](#octree_add) it to the octree at the new position. Alternatively, you may discard the existing octree entirely and create a new one from scratch; this may be more efficient if many of the points have moved.
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nirholas/-w-.---&type=Date)](https://www.star-history.com/#nirholas/-w-.---&Date)
