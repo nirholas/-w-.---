@@ -1,5 +1,10 @@
 # d3-octree
 
+<!-- three.ws:badges -->
+[![GitHub stars](https://img.shields.io/github/stars/nirholas/-w-.---?style=flat&logo=github)](https://github.com/nirholas/-w-.---/stargazers) [![Last commit](https://img.shields.io/github/last-commit/nirholas/-w-.---?style=flat)](https://github.com/nirholas/-w-.---/commits) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat)](https://github.com/nirholas/-w-.---/pulls) [![AI agent friendly](https://img.shields.io/badge/AI%20agents-AGENTS.md%20%2B%20llms.txt-6d5dfc?style=flat)](https://github.com/nirholas/-w-.---/blob/HEAD/AGENTS.md)
+<!-- /three.ws:badges -->
+
+
 Three-dimensional recursive spatial subdivision — the 3D analogue of [d3-quadtree](https://github.com/d3/d3-quadtree). An octree recursively partitions space into eight octants, which makes nearest-neighbour lookups and collision detection over large 3D point sets fast.
 
 This repository is a copy of [vasturiano/d3-octree](https://github.com/vasturiano/d3-octree) by Vasco Asturiano.
@@ -211,3 +216,26 @@ The point’s *x*-, *y*- and *z*-coordinates **must not be modified** while the 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nirholas/-w-.---&type=Date)](https://www.star-history.com/#nirholas/-w-.---&Date)
+
+<!-- three.ws:growth -->
+## Support the project
+
+If -w-.--- saves you time, **[star it on GitHub](https://github.com/nirholas/-w-.---)**. Stars are how other developers and AI agents find the repositories worth trusting, and they cost you one click.
+
+Know someone who would use it? [Post on X](https://twitter.com/intent/tweet?text=-w-.---%3A%20Three-dimensional%20recursive%20spatial%20subdivision&url=https%3A%2F%2Fgithub.com%2Fnirholas%2F-w-.---) · [Share on Bluesky](https://bsky.app/intent/compose?text=-w-.---%3A%20Three-dimensional%20recursive%20spatial%20subdivision%20https%3A%2F%2Fgithub.com%2Fnirholas%2F-w-.---) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fnirholas%2F-w-.---) · [Submit to Hacker News](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fnirholas%2F-w-.---&t=-w-.---%3A%20Three-dimensional%20recursive%20spatial%20subdivision) · [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fnirholas%2F-w-.---&title=-w-.---%3A%20Three-dimensional%20recursive%20spatial%20subdivision)
+
+## Built for AI agents too
+
+Coding agents and LLM tooling can read this repo directly: [AGENTS.md](./AGENTS.md), [llms.txt](./llms.txt), [llms-full.txt](./llms-full.txt). Point an agent at `https://github.com/nirholas/-w-.---` and it has the context it needs.
+
+## More from the same author
+
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme): the full catalog, grouped by topic
+- [three.ws](https://three.ws): the platform for 3D AI agents with Solana wallets, a skill marketplace and x402 payments
+- Questions or ideas: [open an issue](https://github.com/nirholas/-w-.---/issues) or [start a discussion](https://github.com/nirholas/-w-.---/discussions)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=nirholas/-w-.---)](https://github.com/nirholas/-w-.---/graphs/contributors)
+
+<!-- /three.ws:growth -->
